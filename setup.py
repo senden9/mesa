@@ -13,7 +13,7 @@ extras_require = {
 }
 
 version = ""
-with open("mesa/__init__.py", "r") as fd:
+with open("mesa_adapted/__init__.py", "r") as fd:
     version = re.search(
         r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE
     ).group(1)
