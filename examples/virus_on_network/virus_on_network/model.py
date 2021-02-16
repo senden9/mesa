@@ -2,10 +2,10 @@ import math
 from enum import Enum
 import networkx as nx
 
-from mesa import Agent, Model
-from mesa.time import RandomActivation
-from mesa.datacollection import DataCollector
-from mesa.space import NetworkGrid
+from mesa_adapted import Agent, Model
+from mesa_adapted.time import RandomActivation
+from mesa_adapted.datacollection import DataCollector
+from mesa_adapted.space import NetworkGrid
 
 
 class State(Enum):

@@ -1,5 +1,5 @@
-from mesa.visualization.modules import CanvasHexGrid
-from mesa.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasHexGrid
+from mesa_adapted.visualization.ModularVisualization import ModularServer
 
 from hex_snowflake.portrayal import portrayCell
 from hex_snowflake.model import HexSnowflake

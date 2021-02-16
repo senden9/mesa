@@ -1,7 +1,7 @@
-from mesa import Agent, Model
-from mesa.time import RandomActivation
-from mesa.space import MultiGrid
-from mesa.datacollection import DataCollector
+from mesa_adapted import Agent, Model
+from mesa_adapted.time import RandomActivation
+from mesa_adapted.space import MultiGrid
+from mesa_adapted.datacollection import DataCollector
 
 
 class {{cookiecutter.agent}}(Agent):  # noqa

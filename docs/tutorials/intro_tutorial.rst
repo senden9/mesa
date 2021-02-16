@@ -117,7 +117,7 @@ The beginning of both classes looks like this:
 
 .. code:: ipython3
 
-    from mesa import Agent, Model
+    from mesa_adapted import Agent, Model
 
     class MoneyAgent(Agent):
         """An agent with fixed initial wealth."""
@@ -164,8 +164,8 @@ this:
 
 .. code:: ipython3
 
-    from mesa import Agent, Model
-    from mesa.time import RandomActivation
+    from mesa_adapted import Agent, Model
+    from mesa_adapted.time import RandomActivation
 
     class MoneyAgent(Agent):
         """ An agent with fixed initial wealth."""
@@ -404,7 +404,7 @@ to share a cell, we use ``MultiGrid``.
 
 .. code:: ipython3
 
-    from mesa.space import MultiGrid
+    from mesa_adapted.space import MultiGrid
 
 We instantiate a grid with width and height parameters, and a boolean as
 to whether the grid is toroidal. Let's make width and height model
@@ -636,7 +636,7 @@ measure of wealth inequality.
 
 .. code:: ipython3
 
-    from mesa.datacollection import DataCollector
+    from mesa_adapted.datacollection import DataCollector
 
     def compute_gini(model):
         agent_wealths = [agent.wealth for agent in model.schedule.agents]
@@ -913,7 +913,7 @@ times (49* 5) for 245 iterations
 
 .. code:: ipython3
 
-    from mesa.batchrunner import BatchRunner
+    from mesa_adapted.batchrunner import BatchRunner
 
 .. code:: ipython3
 

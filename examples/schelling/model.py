@@ -1,7 +1,7 @@
-from mesa import Model, Agent
-from mesa.time import RandomActivation
-from mesa.space import SingleGrid
-from mesa.datacollection import DataCollector
+from mesa_adapted import Model, Agent
+from mesa_adapted.time import RandomActivation
+from mesa_adapted.space import SingleGrid
+from mesa_adapted.datacollection import DataCollector
 
 
 class SchellingAgent(Agent):

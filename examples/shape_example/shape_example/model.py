@@ -1,6 +1,6 @@
-from mesa import Model, Agent
-from mesa.space import SingleGrid
-from mesa.time import RandomActivation
+from mesa_adapted import Model, Agent
+from mesa_adapted.space import SingleGrid
+from mesa_adapted.time import RandomActivation
 
 
 class Walker(Agent):

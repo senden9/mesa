@@ -3,9 +3,9 @@ Test the DataCollector
 """
 import unittest
 
-from mesa import Model, Agent
-from mesa.time import BaseScheduler
-from mesa.datacollection import DataCollector
+from mesa_adapted import Model, Agent
+from mesa_adapted.time import BaseScheduler
+from mesa_adapted.datacollection import DataCollector
 
 
 class MockAgent(Agent):

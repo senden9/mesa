@@ -4,8 +4,8 @@ Test the advanced schedulers.
 
 import unittest
 from unittest import TestCase, mock
-from mesa import Model, Agent
-from mesa.time import (
+from mesa_adapted import Model, Agent
+from mesa_adapted.time import (
     BaseScheduler,
     StagedActivation,
     RandomActivation,

@@ -1,11 +1,11 @@
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.modules import (
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import (
     CanvasGrid,
     ChartModule,
     BarChartModule,
     PieChartModule,
 )
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa_adapted.visualization.UserParam import UserSettableParameter
 from charts.agents import Person
 from charts.model import Charts
 

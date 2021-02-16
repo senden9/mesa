@@ -4,8 +4,8 @@ the drawing of the model representation on the canvas
 """
 # import webbrowser
 
-from mesa.visualization.modules import CanvasGrid
-from mesa.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasGrid
+from mesa_adapted.visualization.ModularVisualization import ModularServer
 
 from .model import ColorPatches
 

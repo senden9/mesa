@@ -5,10 +5,10 @@ from functools import reduce
 from operator import mul
 import unittest
 
-from mesa import Agent, Model
-from mesa.time import BaseScheduler
-from mesa.datacollection import DataCollector
-from mesa.batchrunner import BatchRunnerMP, ParameterProduct, ParameterSampler
+from mesa_adapted import Agent, Model
+from mesa_adapted.time import BaseScheduler
+from mesa_adapted.datacollection import DataCollector
+from mesa_adapted.batchrunner import BatchRunnerMP, ParameterProduct, ParameterSampler
 from multiprocessing import freeze_support, cpu_count
 
 NUM_AGENTS = 7

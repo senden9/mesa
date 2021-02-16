@@ -9,9 +9,9 @@ Replication of the model found in NetLogo:
     Northwestern University, Evanston, IL.
 """
 
-from mesa import Model
-from mesa.space import MultiGrid
-from mesa.datacollection import DataCollector
+from mesa_adapted import Model
+from mesa_adapted.space import MultiGrid
+from mesa_adapted.datacollection import DataCollector
 
 from wolf_sheep.agents import Sheep, Wolf, GrassPatch
 from wolf_sheep.schedule import RandomActivationByBreed

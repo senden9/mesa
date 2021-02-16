@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-from mesa.time import RandomActivation
+from mesa_adapted.time import RandomActivation
 
 
 class RandomActivationByBreed(RandomActivation):

@@ -4,7 +4,7 @@ import unittest
 from unittest.mock import patch
 from click.testing import CliRunner
 
-from mesa.main import cli
+from mesa_adapted.main import cli
 
 
 class TestCli(unittest.TestCase):

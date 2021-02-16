@@ -4,9 +4,9 @@ import networkx as nx
 import numpy as np
 import pytest
 
-from mesa.space import ContinuousSpace
-from mesa.space import SingleGrid
-from mesa.space import NetworkGrid
+from mesa_adapted.space import ContinuousSpace
+from mesa_adapted.space import SingleGrid
+from mesa_adapted.space import NetworkGrid
 from tests.test_grid import MockAgent
 
 

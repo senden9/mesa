@@ -1,6 +1,6 @@
-from mesa import Model
-from mesa.time import SimultaneousActivation
-from mesa.space import HexGrid
+from mesa_adapted import Model
+from mesa_adapted.time import SimultaneousActivation
+from mesa_adapted.space import HexGrid
 
 from hex_snowflake.cell import Cell
 

@@ -1,6 +1,6 @@
 import math
 
-from mesa import Agent
+from mesa_adapted import Agent
 
 
 class Citizen(Agent):

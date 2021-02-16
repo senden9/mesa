@@ -4,8 +4,8 @@ Configure visualization elements and instantiate a server
 
 from .model import {{ cookiecutter.model }}, {{ cookiecutter.agent }}  # noqa
 
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.modules import CanvasGrid, ChartModule
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasGrid, ChartModule
 
 
 def circle_portrayal_example(agent):

@@ -4,9 +4,9 @@ The model - a 2D lattice where agents live and have an opinion
 
 from collections import Counter
 
-from mesa import Model, Agent
-from mesa.time import SimultaneousActivation
-from mesa.space import Grid
+from mesa_adapted import Model, Agent
+from mesa_adapted.time import SimultaneousActivation
+from mesa_adapted.space import Grid
 
 
 class ColorCell(Agent):

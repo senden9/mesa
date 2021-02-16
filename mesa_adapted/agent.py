@@ -5,7 +5,7 @@ Core Objects: Agent
 
 """
 # mypy
-from mesa.model import Model
+from mesa_adapted.model import Model
 from random import Random
 
 

@@ -1,4 +1,4 @@
-from mesa import Agent
+from mesa_adapted import Agent
 from wolf_sheep.random_walk import RandomWalker
 
 

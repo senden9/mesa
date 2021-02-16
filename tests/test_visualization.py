@@ -1,12 +1,12 @@
 from unittest import TestCase
 from collections import defaultdict
 
-from mesa.model import Model
-from mesa.space import Grid
-from mesa.time import SimultaneousActivation
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.modules import CanvasGrid, TextElement
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa_adapted.model import Model
+from mesa_adapted.space import Grid
+from mesa_adapted.time import SimultaneousActivation
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasGrid, TextElement
+from mesa_adapted.visualization.UserParam import UserSettableParameter
 
 from tests.test_batchrunner import MockAgent
 

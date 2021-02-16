@@ -1,5 +1,5 @@
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.modules import CanvasGrid, ChartModule
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasGrid, ChartModule
 
 from .agents import SsAgent, Sugar
 from .model import SugarscapeCg

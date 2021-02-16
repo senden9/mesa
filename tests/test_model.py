@@ -1,4 +1,4 @@
-from mesa.model import Model
+from mesa_adapted.model import Model
 
 
 def test_model_set_up():

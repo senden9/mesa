@@ -1,7 +1,7 @@
-from mesa import Model
-from mesa.time import RandomActivation
-from mesa.space import Grid
-from mesa.datacollection import DataCollector
+from mesa_adapted import Model
+from mesa_adapted.time import RandomActivation
+from mesa_adapted.space import Grid
+from mesa_adapted.datacollection import DataCollector
 
 from .agent import Cop, Citizen
 

@@ -10,10 +10,10 @@ Author of NetLogo code:
 """
 
 from bank_reserves.agents import Bank, Person
-from mesa import Model
-from mesa.space import MultiGrid
-from mesa.datacollection import DataCollector
-from mesa.time import RandomActivation
+from mesa_adapted import Model
+from mesa_adapted.space import MultiGrid
+from mesa_adapted.datacollection import DataCollector
+from mesa_adapted.time import RandomActivation
 import numpy as np
 
 

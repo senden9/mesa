@@ -3,7 +3,7 @@ Test the Grid objects.
 """
 import random
 import unittest
-from mesa.space import Grid, SingleGrid, MultiGrid, HexGrid
+from mesa_adapted.space import Grid, SingleGrid, MultiGrid, HexGrid
 
 # Initial agent positions for testing
 #

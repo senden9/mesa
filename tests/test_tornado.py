@@ -1,7 +1,7 @@
 from tornado.testing import AsyncHTTPTestCase
 import tornado
-from mesa import Model
-from mesa.visualization.ModularVisualization import ModularServer
+from mesa_adapted import Model
+from mesa_adapted.visualization.ModularVisualization import ModularServer
 import json
 
 

@@ -7,9 +7,9 @@ Uses numpy arrays to represent vectors.
 
 import numpy as np
 
-from mesa import Model
-from mesa.space import ContinuousSpace
-from mesa.time import RandomActivation
+from mesa_adapted import Model
+from mesa_adapted.space import ContinuousSpace
+from mesa_adapted.time import RandomActivation
 
 from .boid import Boid
 

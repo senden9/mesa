@@ -8,7 +8,7 @@ Original Author: Jackie Kazil
 Generalized behavior for random walking, one grid cell at a time.
 """
 
-from mesa import Agent
+from mesa_adapted import Agent
 
 
 class RandomWalker(Agent):

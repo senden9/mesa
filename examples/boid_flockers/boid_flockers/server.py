@@ -1,4 +1,4 @@
-from mesa.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.ModularVisualization import ModularServer
 
 from .model import BoidFlockers
 from .SimpleContinuousModule import SimpleCanvas

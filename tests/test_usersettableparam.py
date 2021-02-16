@@ -1,5 +1,5 @@
 from unittest import TestCase
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa_adapted.visualization.UserParam import UserSettableParameter
 
 
 class TestOption(TestCase):

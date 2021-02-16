@@ -1,10 +1,10 @@
 import math
 
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.UserParam import UserSettableParameter
-from mesa.visualization.modules import ChartModule
-from mesa.visualization.modules import NetworkModule
-from mesa.visualization.modules import TextElement
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.UserParam import UserSettableParameter
+from mesa_adapted.visualization.modules import ChartModule
+from mesa_adapted.visualization.modules import NetworkModule
+from mesa_adapted.visualization.modules import TextElement
 from .model import VirusOnNetwork, State, number_infected
 
 

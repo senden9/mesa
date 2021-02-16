@@ -1,4 +1,4 @@
-from mesa.visualization.ModularVisualization import VisualizationElement
+from mesa_adapted.visualization.ModularVisualization import VisualizationElement
 
 
 class SimpleCanvas(VisualizationElement):

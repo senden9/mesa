@@ -132,7 +132,7 @@ model, and display its name and value. Let's create a new subclass:
 
 .. code:: python
 
-        from mesa.visualization.ModularTextVisualization import TextElement
+        from mesa_adapted.visualization.ModularTextVisualization import TextElement
 
         class AttributeElement(TextElement):
             def __init__(self, attr_name):
@@ -209,7 +209,7 @@ here's the whole thing:
 
 .. code:: python
 
-        from mesa.visualization.ModularVisualization import VisualizationElement
+        from mesa_adapted.visualization.ModularVisualization import VisualizationElement
 
         class TextElement(VisualizationElement):
             js_includes = ["TextModule.js"]

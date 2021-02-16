@@ -104,7 +104,7 @@ import tornado.escape
 import tornado.gen
 import webbrowser
 
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa_adapted.visualization.UserParam import UserSettableParameter
 
 # Suppress several pylint warnings for this file.
 # Attributes being defined outside of init is a Tornado feature.

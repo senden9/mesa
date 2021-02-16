@@ -2,7 +2,7 @@ import unittest
 import os
 from click.testing import CliRunner
 
-from mesa.main import cli
+from mesa_adapted.main import cli
 
 
 class ScaffoldTest(unittest.TestCase):

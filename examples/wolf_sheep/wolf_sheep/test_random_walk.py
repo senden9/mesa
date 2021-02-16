@@ -3,10 +3,10 @@ Testing the RandomWalker by having an ABM composed only of random walker
 agents.
 """
 
-from mesa import Model
-from mesa.space import MultiGrid
-from mesa.time import RandomActivation
-from mesa.visualization.TextVisualization import TextVisualization, TextGrid
+from mesa_adapted import Model
+from mesa_adapted.space import MultiGrid
+from mesa_adapted.time import RandomActivation
+from mesa_adapted.visualization.TextVisualization import TextVisualization, TextGrid
 
 from wolf_sheep.random_walk import RandomWalker
 

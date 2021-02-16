@@ -1,6 +1,6 @@
-from mesa import Model
-from mesa.time import SimultaneousActivation
-from mesa.space import Grid
+from mesa_adapted import Model
+from mesa_adapted.time import SimultaneousActivation
+from mesa_adapted.space import Grid
 
 from .cell import Cell
 

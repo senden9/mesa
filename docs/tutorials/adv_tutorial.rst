@@ -43,8 +43,8 @@ need to import the actual model object.
 
 .. code:: python
 
-    from mesa.visualization.modules import CanvasGrid
-    from mesa.visualization.ModularVisualization import ModularServer
+    from mesa_adapted.visualization.modules import CanvasGrid
+    from mesa_adapted.visualization.ModularVisualization import ModularServer
 
     # If MoneyModel.py is where your code is:
     # from MoneyModel import MoneyModel
@@ -105,8 +105,8 @@ The full code should now look like:
 .. code:: python
 
     from MoneyModel import *
-    from mesa.visualization.modules import CanvasGrid
-    from mesa.visualization.ModularVisualization import ModularServer
+    from mesa_adapted.visualization.modules import CanvasGrid
+    from mesa_adapted.visualization.ModularVisualization import ModularServer
 
 
     def agent_portrayal(agent):
@@ -197,7 +197,7 @@ provides.
 
 .. code:: python
 
-    from mesa.visualization.modules import ChartModule
+    from mesa_adapted.visualization.modules import ChartModule
 
 The basic chart pulls data from the model's DataCollector, and draws it
 as a line graph using the `Charts.js <http://www.chartjs.org/>`__
@@ -420,7 +420,7 @@ inherit from, and create the new visualization class.
 
 .. code:: python
 
-        from mesa.visualization.ModularVisualization import VisualizationElement
+        from mesa_adapted.visualization.ModularVisualization import VisualizationElement
 
         class HistogramModule(VisualizationElement):
             package_includes = ["Chart.min.js"]

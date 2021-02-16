@@ -1,6 +1,6 @@
 import numpy as np
 
-from mesa import Agent
+from mesa_adapted import Agent
 
 
 class Boid(Agent):

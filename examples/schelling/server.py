@@ -1,6 +1,6 @@
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.modules import CanvasGrid, ChartModule, TextElement
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasGrid, ChartModule, TextElement
+from mesa_adapted.visualization.UserParam import UserSettableParameter
 
 from model import Schelling
 

@@ -9,9 +9,9 @@ Center for Connected Learning and Computer-Based Modeling,
 Northwestern University, Evanston, IL.
 """
 
-from mesa import Model
-from mesa.space import MultiGrid
-from mesa.datacollection import DataCollector
+from mesa_adapted_adapted import Model
+from mesa_adapted_adapted.space import MultiGrid
+from mesa_adapted_adapted.datacollection import DataCollector
 
 from .agents import SsAgent, Sugar
 from .schedule import RandomActivationByBreed

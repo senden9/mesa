@@ -1,8 +1,8 @@
 import unittest
 
-from mesa.time import RandomActivation
-from mesa.datacollection import DataCollector
-from mesa import Model, Agent
+from mesa_adapted.time import RandomActivation
+from mesa_adapted.datacollection import DataCollector
+from mesa_adapted import Model, Agent
 import numpy as np
 
 

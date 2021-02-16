@@ -1,9 +1,9 @@
-from mesa.visualization.ModularVisualization import ModularServer
+from mesa_adapted_adapted.visualization.ModularVisualization import ModularServer
 from .model import BoltzmannWealthModel
 
-from mesa.visualization.modules import CanvasGrid
-from mesa.visualization.modules import ChartModule
-from mesa.visualization.UserParam import UserSettableParameter
+from mesa_adapted_adapted.visualization.modules import CanvasGrid
+from mesa_adapted_adapted.visualization.modules import ChartModule
+from mesa_adapted_adapted.visualization.UserParam import UserSettableParameter
 
 
 def agent_portrayal(agent):

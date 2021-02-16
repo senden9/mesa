@@ -29,9 +29,9 @@ The skeleton of a model might look like this:
 
 .. code:: python
 
-    from mesa import Agent, Model
-    from mesa.time import RandomActivation
-    from mesa.space import MultiGrid
+    from mesa_adapted import Agent, Model
+    from mesa_adapted.time import RandomActivation
+    from mesa_adapted.space import MultiGrid
 
     class MyAgent(Agent):
         def __init__(self, name, model):
@@ -79,7 +79,7 @@ You'd add a data collector to the model like this:
 
 .. code:: python
 
-    from mesa.datacollection import DataCollector
+    from mesa_adapted.datacollection import DataCollector
 
     # ...
 
@@ -109,7 +109,7 @@ To batch-run the model while varying, for example, the n_agents parameter, you'd
 
 .. code:: python
 
-    from mesa.batchrunner import BatchRunner
+    from mesa_adapted.batchrunner import BatchRunner
 
     parameters = {"n_agents": range(1, 20)}
     batch_run = BatchRunner(MyModel, parameters, max_steps=10,
@@ -136,8 +136,8 @@ To quickly spin up a model visualization, you might do something like:
 
 .. code:: python
 
-    from mesa.visualization.modules import CanvasGrid
-    from mesa.visualization.ModularVisualization import ModularServer
+    from mesa_adapted.visualization.modules import CanvasGrid
+    from mesa_adapted.visualization.ModularVisualization import ModularServer
 
     def agent_portrayal(agent):
         portrayal = {"Shape": "circle",

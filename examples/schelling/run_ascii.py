@@ -1,4 +1,4 @@
-from mesa.visualization.TextVisualization import TextData, TextGrid, TextVisualization
+from mesa_adapted.visualization.TextVisualization import TextData, TextGrid, TextVisualization
 
 from model import Schelling
 

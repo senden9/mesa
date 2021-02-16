@@ -1,5 +1,5 @@
-from mesa.visualization.ModularVisualization import ModularServer
-from mesa.visualization.modules import CanvasGrid
+from mesa_adapted.visualization.ModularVisualization import ModularServer
+from mesa_adapted.visualization.modules import CanvasGrid
 
 from .model import EpsteinCivilViolence
 from .agent import Citizen, Cop
