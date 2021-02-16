@@ -22,13 +22,13 @@ with open("README.rst", "rb", encoding="utf-8") as f:
     readme = f.read()
 
 setup(
-    name="Mesa",
+    name="Mesa-Adapted",
     version=version,
-    description="Agent-based modeling (ABM) in Python 3+",
+    description="Forked Agent-based modeling (ABM) in Python 3+",
     long_description=readme,
-    author="Project Mesa Team",
-    author_email="projectmesa@googlegroups.com",
-    url="https://github.com/projectmesa/mesa",
+    author="Project Mesa Team / Stefano Probst",
+    author_email="senden9@gmail.com",
+    url="https://github.com/senden9/mesa/tree/pipy-fork",
     packages=find_packages(),
     package_data={
         "mesa": [
