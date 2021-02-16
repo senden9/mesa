@@ -1,5 +1,5 @@
 Mesa: Fork of the Agent-based modeling in Python 3+
-=========================================
+===================================================
 
 Fork of the original Mesa project till https://github.com/projectmesa/mesa/pull/944 and/or https://github.com/projectmesa/mesa/issues/943 are soved.
 
