@@ -3,8 +3,8 @@ include LICENSE
 include HISTORY.rst
 include README.rst
 include setup.py
-include mesa/cookiecutter-mesa/*
-include mesa/visualization/templates/*.html
-include mesa/visualization/templates/css/*
-include mesa/visualization/templates/fonts/*
-include mesa/visualization/templates/js/*
+include mesa_adapted/cookiecutter-mesa/*
+include mesa_adapted/visualization/templates/*.html
+include mesa_adapted/visualization/templates/css/*
+include mesa_adapted/visualization/templates/fonts/*
+include mesa_adapted/visualization/templates/js/*
